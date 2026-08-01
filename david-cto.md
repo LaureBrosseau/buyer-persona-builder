@@ -1,4 +1,4 @@
-# David Kim — Chief Technology Officer
+# David — Chief Technology Officer
 
 ## Example Titles
 - Chief Technology Officer
