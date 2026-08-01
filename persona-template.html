@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buyer Persona — [Persona Name]</title>
+<style>
+  :root {
+    --yellow: #FDBE04;
+    --black: #050505;
+    --cream: #F8F5EF;
+    --gray: #808080;
+    --line: #DEDEDE;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+    background: #fafafa;
+    color: var(--black);
+    line-height: 1.6;
+  }
+
+  .page {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 56px 48px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .header {
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--yellow);
+    padding-bottom: 20px;
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 500;
+  }
+
+  .sources-line {
+    font-size: 12px;
+    color: #999;
+    margin-top: 12px;
+    font-style: italic;
+  }
+
+  .section {
+    margin-bottom: 36px;
+  }
+
+  .section-heading {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--black);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .summary {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--yellow);
+    font-weight: bold;
+  }
+
+  .sources-list li a {
+    color: var(--gray);
+    text-decoration: underline;
+    word-break: break-all;
+    font-size: 13px;
+  }
+
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+  }
+
+  @media print {
+    body {
+      background: #fff;
+    }
+    .page {
+      box-shadow: none;
+      margin: 0;
+      padding: 40px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .page {
+      padding: 32px 24px;
+    }
+    .title {
+      font-size: 24px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="header">
+    <div class="title">[Persona Name]</div>
+    <div class="subtitle">[Example Title]</div>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Example Titles</div>
+    <ul>
+      <li>[Title variant 1]</li>
+      <li>[Title variant 2]</li>
+      <li>[Title variant 3]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Summary</div>
+    <p class="summary">[2-3 sentences describing who this person is, their role, their world. Make it concrete and grounded.]</p>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Wants, Needs and Desires</div>
+    <ul>
+      <li>[What they want to achieve or accomplish]</li>
+      <li>[What they need to do their job well]</li>
+      <li>[What would make their day better]</li>
+      <li>[What matters most to them]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Challenges</div>
+    <ul>
+      <li>[Main challenge or pain point]</li>
+      <li>[Ongoing frustration or bottleneck]</li>
+      <li>[What drains time or energy]</li>
+      <li>[What's hard to measure or control]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Tasks and Responsibilities</div>
+    <ul>
+      <li>[Key responsibility or task]</li>
+      <li>[Regular activity or process]</li>
+      <li>[Strategic or tactical focus]</li>
+      <li>[Team or stakeholder management]</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-heading">Sources</div>
+    <p class="summary" style="margin-bottom: 12px;"><strong>Built from:</strong> [source summary, e.g. "8 job postings, 2 analyst reports, 12 forum discussions"]</p>
+    <ul class="sources-list">
+      <li><a href="#">[actual URL 1]</a></li>
+      <li><a href="#">[actual URL 2]</a></li>
+      <li><a href="#">[actual URL 3]</a></li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Built with buyer-persona-builder — github.com/LaureBrosseau/buyer-persona-builder
+  </div>
+
+</div>
+
+</body>
+</html>
