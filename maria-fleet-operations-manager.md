@@ -1,4 +1,4 @@
-# Maria Alvarez — Fleet Operations Manager
+# Maria — Fleet Operations Manager
 
 ## Example Titles
 - Fleet Operations Manager
