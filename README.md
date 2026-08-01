@@ -25,12 +25,11 @@ Skip weeks of interview scheduling. Get a research-backed persona first draft in
 ### Step 1: Set up Claude
 
 If you're running this in Claude.ai or Claude Code:
-
-1. Download or copy buyer-persona-skill.md to your Claude Project's skills section, or paste it as a custom instruction.
-2. Download persona-template.md (for Notion/Docs) and/or persona-template.html (for web/print) if you want to customize output formatting.
+1. Download or copy `buyer-persona-skill.md` to your Claude Project's skills section, or paste it as a custom instruction.
+2. Download `persona-template.md` (for Notion/Docs) and/or `persona-template.html` (for web/print) if you want to customize output formatting.
 
 If you're using Claude via API:
-- Include the buyer-persona-skill.md content in your system prompt when calling the API.
+- Include the `buyer-persona-skill.md` content in your system prompt when calling the API.
 
 ### Step 2: Prompt the skill
 
