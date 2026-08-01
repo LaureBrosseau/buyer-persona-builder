@@ -9,7 +9,6 @@ Skip weeks of interview scheduling. Get a research-backed persona first draft in
 - Launching a new product where you don't know the key buyers yet
 - Accelerating persona work when you have a few weeks, not months.
 
----
 
 ## What's in the repo
 
@@ -18,7 +17,6 @@ Skip weeks of interview scheduling. Get a research-backed persona first draft in
 - **persona-template.html**: HTML template for a clean, one-page web or print-ready version.
 - **example-output/maria-fleet-operations-manager.md**: A complete example persona showing the expected output format and level of specificity.
 
----
 
 ## How to use it
 
@@ -75,8 +73,6 @@ Personas go straight into:
 - **Sales enablement:** How does each persona buy? What concerns them?
 - **Content strategy:** What questions does each persona have?
 
----
-
 ## Persona structure
 
 One page per persona, structured like this:
@@ -89,9 +85,8 @@ One page per persona, structured like this:
 
 Plus: a source line at the bottom ("Built from: 8 job postings, 3 analyst reports, 12 forum discussions") so you know how credible each section is, and verified URLs for each source.
 
----
 
-## When this works best
+## When this skill works best
 
 ✓ Entering a new market without direct customer access  
 ✓ Launching a new product to an unfamiliar buyer profile  
@@ -102,9 +97,7 @@ Plus: a source line at the bottom ("Built from: 8 job postings, 3 analyst report
 ✗ Synthesizing 50+ interview transcripts into personas (you can use this skill from the Product Marketing Alliance [customer-research](https://github.com/pmalliance/product-marketing-skills/blob/main/skills/customer-research.skill) instead)  
 ✗ Personas for product you already sell (you have interview data; use that first) 
 
----
-
-## Why this approach
+## Why this skill
 
 I created this skill to accelerate the knowledge of key buyer personas in a new domain. Sometimes you do not have enough time to interview prospects when you're new to a market. A Google search, a Reddit thread, and a job posts already contain key elements: how people talk about their problems, what they're measured on, what frustrates them.
 
@@ -114,7 +107,6 @@ One page per persona (not 5 pages) forces clarity. If you can't say it in a page
 
 Sourcing everything (showing where each claim comes from) means you know what's corroborated and what's inference. That shapes how you use the personas: strong claims go into messaging, inferences go into "validate with real interviews."
 
----
 
 ## Example
 
@@ -122,7 +114,6 @@ The `example-output/` folder shows what the skill produces. One persona for a fl
 
 That example is fabricated to show structure. A real run would be just as specific but grounded in actual job postings, analyst reports, and forum discussions.
 
----
 
 ## Limitations & Next Steps
 
@@ -131,7 +122,6 @@ This skill produces a first draft based on public research. After you have your 
 - **Use [customer-research](https://github.com/pmalliance/product-marketing-skills/blob/main/skills/customer-research.skill)** for deeper interview-based synthesis.
 - **Watch for blind spots.** Public research is better than nothing but misses context only customers know.
 
----
 
 ## Who built this
 
