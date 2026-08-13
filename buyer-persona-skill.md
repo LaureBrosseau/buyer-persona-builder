@@ -2,7 +2,7 @@
 name: buyer-persona-builder
 description: "Build 1-3 buyer personas for a market or domain by researching autonomously across job descriptions, analyst reports, company documentation, and community forums. Use when the user wants to identify key decision-makers in a new market, understand who actually buys in a category, profile an ICP for a domain they're entering, or accelerate persona research for a new product launch. Triggers: 'build buyer personas,' 'create personas for,' 'research [domain/market] personas,' 'who buys [product category],' 'key personas for [market],' 'accelerate persona research,' 'identify buyer profiles.' The skill autonomously identifies research angles (job listings, analyst firms, forums, help docs, pricing pages) and synthesizes findings into 1-3 clear, research-backed persona profiles, one page each."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Buyer Persona Builder
@@ -69,6 +69,8 @@ For each persona, you research across these angles (parallelize where possible):
 - If the user uploads research, interviews, or reports, mine these first
 - Verbatim quotes are gold — capture them for "language" insights
 
+**If a channel is inaccessible** (no direct access to Reddit/G2/Slack communities in the research environment, paywall, etc.), don't silently skip it. Note it in the "Built from" line (e.g., _"forums and G2 reviews not accessible this session — recommend supplementing with sales call transcripts or support tickets if available"_) and compensate by weighting the available angles more heavily (job postings, analyst reports, docs).
+
 ---
 
 ## Persona Identification
@@ -124,6 +126,9 @@ Each persona gets one clean page with these sections (no fluff):
 - If you synthesize across sources, note that in the "Built from" line — "emerges from 6 job postings and 12 forum discussions"
 - Light touch on confidence labeling — only mark weak inferences, not every line
 - Never invent or guess a URL. If you can't verify a source's link, don't include it — note the gap instead
+- If an entire category of sources (forums, reviews) couldn't be explored, state this clearly as a limitation of the persona, not just a silent absence from the source list.
+- If no verbatim quotes are available (no access to forums/reviews/interviews), don't fabricate quotes to fill the gap. Use sourced paraphrase instead, and flag the absence of verbatim language as a future enrichment opportunity (e.g., customer interviews, support tickets, call transcripts).
+
 
 ### Length
 - Summary: 2-3 sentences max
@@ -137,7 +142,7 @@ Each persona gets one clean page with these sections (no fluff):
 1. **Intake:** Get domain, persona count (1-3), any documents
 2. **Research:** Parallel search across job descriptions, reports, docs, forums, reviews
 3. **Synthesis:** Identify 1-3 key personas based on research signal
-4. **Confirm:** Show user the persona list, ask to validate or adjust
+4. **Confirm:** Show user the persona list, ask to validate or adjust. If the initial prompt already names the candidate roles AND the persona count (e.g. "identify buyer profiles among X, Y, Z, build 2"), the "Confirm" step can be folded directly into the final response (recommendation + reasoning) rather than blocking on a separate question. An explicit confirmation gate remains necessary only when the skill itself had to identify the candidate roles (see "Persona Identification" section).
 5. **Draft:** Write each persona using the template
 6. **Review:** Read aloud, check for specificity (no generic placeholders), remove jargon
 7. **Deliver:** Present personas in markdown format. Ask: "Want me to format these for Notion, or would you prefer the HTML template for web/print?"
