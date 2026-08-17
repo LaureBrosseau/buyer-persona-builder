@@ -125,12 +125,12 @@ This skill produces a first draft based on public research. After you have your 
 
 ## Who built this
 
-[Laure Brosseau](https://www.laurebrosseau.com) — Senior Product Marketing leader with 15+ years in B2B SaaS.   
+[Laure Brosseau](https://www.laurebrosseau.com/?utm_source=github&utm_medium=repository) — Senior Product Marketing leader with 15+ years in B2B SaaS.   
 Built Akeneo's PMM function from scratch. Led positioning, go-to-market, competitive intelligence, and win-loss analysis across product launches that generated €25M+ in ARR.
 
 This is the skill I wish I'd had at Akeneo: it starts the research for you, pulling from job postings, forums, and analyst reports instead of you digging through it all by hand.
 
-See more at [laurebrosseau.com](https://www.laurebrosseau.com) or [github.com/LaureBrosseau](https://github.com/LaureBrosseau).
+See more at [laurebrosseau.com](https://www.laurebrosseau.com/?utm_source=github&utm_medium=repository) or [github.com/LaureBrosseau](https://github.com/LaureBrosseau).
 
 ---
 
